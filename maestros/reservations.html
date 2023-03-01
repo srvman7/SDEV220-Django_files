@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Maestro's Lounge-Reservations</title>
+<meta charset="utf-8">
+<meta name="viewport" 
+content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="maestros.css">
+<link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+<a href="index.html"><h1 class="head">Maestro's Lounge and Entertainment</h1></a>
+<nav>
+  <ul>
+  <li><a href="index.html">Home</a></li>  
+  <li><a href="about.html">About Us</a></li>  
+  <li><a href="order.html">Menu</a></li> 
+  <li><a href="reservations.html">Reservations</a></li>
+  <li><a href="community.html">E-Community</a></li>
+  </ul>
+</nav>
+<div id="wrapper">
+<div id="homehero">
+</div>
+<main>
+<h2 id="hours">Reservations</h2>
+<p id="hours">We look forward to seeing you!</p>
+<form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+  <label for="myFName">First Name</label>
+  <input type="text" name="myFNname">
+  <label for="myLName">Last Name</label>
+  <input type="text" name="myLName">
+  <label for="myEmail">Email</label>
+  <input type="text" name="myEmail">
+  <label for="myPhone">Phone</label>
+  <input type="text" name="myPhone">
+  <label for="myDate">Date</label>
+  <input type="date" name="myDate">
+  <label for="mytime">Time</label>
+  <input type="text" name="mytime" min="1" max="50">
+  <label for="myComments">Comments</label>
+  <textarea name="myComments" rows="2" cols="20">Enter comments here...</textarea>
+  <input id="mySubmit" type="submit" value="Submit">
+</form>
+<div id="hours">
+<p><span class="lounge">Maestro's Lounge and Entertainment</span> <br> 12345 4th Street <br> Louisville, Kentucky 40202</p>
+<p><a id="mobile" href="tel:555-555-5555">555-555-5555</a></p>
+<span id="desktop">555-555-5555</span>
+</div>
+</main>
+<footer>
+<p>Copyright &copy; Maestro's Lounge and Entertainment <br>
+<a href="mailto:maestros_lounge@google.com">maestros_lounge@google.com</a>
+</p>
+</footer>
+</div>
+</body>
+</html>
